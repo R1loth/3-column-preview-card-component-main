@@ -1,0 +1,170 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap");
+/*font-family: 'Big Shoulders Display',
+cursive;*/
+/* font-family: 'Lexend Deca',
+sans-serif; */
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 200vh;
+}
+
+.wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 375px;
+  height: 1502px;
+}
+
+section {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+  width: 327px;
+  height: 1326px;
+  border-radius: 8px;
+  background-color: #e38826;
+}
+
+section h1 {
+  margin: 35px 0 25px 0;
+  font-family: 'Big Shoulders Display';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  text-transform: uppercase;
+  color: #f2f2f2;
+}
+
+section p {
+  margin-bottom: 37px;
+  font-family: 'Lexend Deca';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  color: rgba(255, 255, 255, 0.75);
+}
+
+section a {
+  text-decoration: none;
+  background-color: #f2f2f2;
+  padding: 12.5px 29.17px;
+  border-radius: 25px;
+  border: 2px solid #f2f2f2;
+  font-family: 'Lexend Deca';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+#sedans a:hover, #suvs a:hover, #luxury a:hover {
+  color: #f2f2f2;
+  background: transparent;
+}
+
+#sedans {
+  padding: 48px;
+}
+
+#suvs {
+  background-color: #006970;
+  padding: 48px;
+  border-radius: 8px;
+}
+
+#luxury {
+  background-color: #004241;
+  padding: 48px;
+  border-radius: 0 0 8px 8px;
+}
+
+#sedans a {
+  color: #e38826;
+}
+
+#suvs a {
+  color: #006970;
+}
+
+#luxury a {
+  color: #004241;
+}
+
+@media only screen and (min-width: 700px) {
+  body {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    height: 100vh;
+  }
+  .wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin: auto;
+    width: 1440px;
+    height: 800px;
+  }
+  section {
+    width: 920px;
+    height: 500px;
+    background-color: #e38826;
+    -ms-grid-columns: (1fr)[3];
+        grid-template-columns: repeat(3, 1fr);
+  }
+  #sedans {
+    background-color: #e38826;
+    max-height: 420px;
+    border-radius: 8px;
+  }
+  #suvs {
+    max-height: 420px;
+  }
+  #luxury {
+    border-radius: 0px 8px 8px 0px;
+    max-height: 420px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
