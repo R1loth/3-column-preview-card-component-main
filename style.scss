@@ -25,21 +25,14 @@ sans-serif; */
     padding: 0%;
 }
 
-body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    height: 200vh;
 
-}
 
 .wrapper {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 375px;
-    height: 1502px;
+    width: 95vw;
+   
     
 }
 
@@ -48,7 +41,7 @@ section {
     display: grid;
     grid-template-columns: 1fr;
 
-    width: 327px;
+    width: 90%;
     height: 1326px;
 
     border-radius: 8px;
@@ -133,21 +126,15 @@ section a {
 
 @media only screen and (min-width: 700px) {
 
-    body {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        height: 100vh;
-        
-    }
+
 
     .wrapper {
         display: flex;
         align-items: center;
         justify-content: center;
         margin: auto;
-        width: 1440px;
-        height: 800px;
+        width: 100vw;
+        height: 100vh;
        
         
     }
